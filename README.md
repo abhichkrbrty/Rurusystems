@@ -3,6 +3,12 @@
 RuruSystems is an applied intelligence systems architecture focused on turning research into structured, usable systems.
 
 ---
+## Why this matters
+
+Most AI systems produce isolated outputs.
+
+RuruSystems is designed to create structured intelligence that persists, evolves, and integrates across systems.
+
 
 ## System Overview
 
@@ -103,6 +109,12 @@ This repository exists to expose:
 - system architecture
 - design thinking
 - public-facing technical structure  
+
+---
+
+## Visual Overview
+
+![System](./assets/rurusystems_architecture.png)
 
 ---
 
