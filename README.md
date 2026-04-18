@@ -1,44 +1,111 @@
 # RuruSystems
 
-RuruSystems is an applied AI systems lab focused on turning research into structured, usable intelligence.
+RuruSystems is an applied intelligence systems architecture focused on turning research into structured, usable systems.
 
-## Core System Layers
+---
 
-- **Kāla** — orchestration engine that routes and interprets intelligence across systems
-- **Kinetru** — quantitative intelligence interface for structured decision workflows
-- **MemMapRu** — memory and context layer for persistent AI interaction
+## System Overview
 
-## System View
+RuruSystems is built as a layered intelligence architecture:
 
-Research → Kāla → Product Interfaces
+- **Research Layer** — models, signals, and reasoning systems  
+- **Kāla (Orchestration Layer)** — interprets, routes, and coordinates intelligence  
+- **Product Layer** — exposes intelligence through usable interfaces  
 
-- Research produces models, signals, and interaction patterns
-- Kāla determines how intelligence is interpreted, routed, and applied
-- Product systems expose this through usable interfaces
+---
 
-## Public Repositories
+## Architecture
 
-- [kala-engine](../kala-engine)
-- [kinetru](../kinetru)
-- [kinetru-runtime](../kinetru-runtime)
-- [memmapru](../memmapru)
+Research Systems
+↓
+Kāla (Orchestration Engine)
+↓
 
-## Why this repository exists
+↓                                 ↓
+Kinetru                      MemMapRu
+(Quant Interface)           (Memory System)
 
-This repository serves as the public architecture layer for the RuruSystems ecosystem.
+---
 
-It is intended to document:
+## Core Systems
+
+### Kāla
+Orchestration layer responsible for:
+- routing intelligence
+- applying interpretation logic
+- coordinating system behavior
+
+### Kinetru
+Quantitative intelligence interface:
+- transforms signals into decision workflows
+- structured, regime-aware outputs
+
+### MemMapRu
+Memory and context system:
+- persistent interaction layer
+- structured recall and continuity
+
+---
+
+## System Design Principles
+
+- Separation of research, orchestration, and product layers  
+- Modular and composable architecture  
+- Runtime delivery abstraction  
+- Long-term memory as a first-class system  
+- Intelligence as structured output, not raw signals  
+
+---
+
+## System Flow
+
+1. Research systems generate signals and models  
+2. Kāla interprets and routes intelligence  
+3. Runtime systems structure outputs  
+4. Product interfaces expose usable workflows  
+
+---
+
+## Repository Structure
+
+This repository serves as the **public architecture layer**.
+
+It is used to document:
 - system design
-- product relationships
 - architecture direction
-- public-facing technical context
+- product relationships
+- ecosystem structure  
+
+---
+
+## Related Systems
+
+- [Kāla Engine](https://github.com/abhichkrbrty/kala-engine)
+- [Kinetru](https://github.com/abhichkrbrty/kinetru)
+- [Kinetru Runtime](https://github.com/abhichkrbrty/kinetru-runtime)
+- [MemMapRu](https://github.com/abhichkrbrty/memmapru)
+
+---
+
+## Current Focus
+
+- Designing orchestration across intelligence systems  
+- Structuring runtime delivery layers  
+- Scaling product interfaces from research systems  
+
+---
 
 ## Code Access
 
-Some production systems and core implementations are maintained in private repositories.
+Core implementations are partially maintained in private repositories.
 
-Public repositories are used to expose architecture, product structure, selected technical surfaces, and system direction.
+This repository exists to expose:
+- system architecture
+- design thinking
+- public-facing technical structure  
+
+---
 
 ## Status
 
-Active system design and product development in progress.
+Active development and system expansion.
